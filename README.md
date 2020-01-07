@@ -1,4 +1,4 @@
-# sandboxie
+# Sandboxie
 sandboxie POC, Findings
 
 ### Installing Sandboxie.
@@ -42,10 +42,13 @@ to configure or change the sandbox folder Go to Menubar then Sandbox -> Set Cont
 I created a setup file ([install.ps1](setup/install.ps1)  powershell file) which will install complete rpa with all dependencies except .Net Frameworks and Visual c++ build tool.
 .Net Frameworks and Visual c++ build tool need to be install on window host to run window-build-tool, it will not work in sandbox mode.
 
+![Installing RPA](images/setup_directory.jpg "Installing RPA")
+
 ### Auto start Program
 
 Right click on the sandbox name which you created. then select <Sandbox:name> -> Sandbox settings -> Program Start -> Forced Program, click on add program and select the .bat or .cmd file. [Reference document](https://www.sandboxie.com/ProgramStartSettings)
 
+![Add New Program](images/add_program_auto.jpg "Add New Program")
 
 ## Reference Document.
 
